@@ -84,13 +84,13 @@ Every math operation is wrapped in a try block catching exception (specifically 
 
 A quick guide for those who wanna know what does every operator do:
 
-+  Adds two numbers.
++ Adds two numbers.
 
--  Subtracts the second number from the first.
+- Subtracts the second number from the first.
 
-*  Multiplies two numbers.
+* Multiplies two numbers.
 
-/  Divides the first number by the second (throws error if divisor is zero).
+/ Divides the first number by the second (throws error if divisor is zero).
 
 ^ – Raises the first number to the power of the second.
 
