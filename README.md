@@ -84,48 +84,49 @@ Every math operation is wrapped in a try block catching exception (specifically 
 
 A quick guide for those who wanna know what does every operator do:
 
-+ – Adds two numbers.
+    + – Adds two numbers.
 
-- – Subtracts the second number from the first.
+    - – Subtracts the second number from the first.
 
-* – Multiplies two numbers
+    * – Multiplies two numbers.
 
-/ Divides the first number by the second (throws error if divisor is zero).
+    / – Divides the first number by the second (throws error if divisor is zero).
 
-^ – Raises the first number to the power of the second.
+    ^ – Raises the first number to the power of the second.
 
-% – Computes the floating‑point remainder of the first number divided by the second (using fmod; error if second is zero).
+    % – Computes the floating‑point remainder of the first number divided by the second (using fmod; error if second is zero).
 
-v – Takes the square root of a number (error if negative).
+    v – Takes the square root of a number (error if negative).
 
-s – Takes the sine of an angle (degrees or radians according to current mode).
+    s – Takes the sine of an angle (degrees or radians according to current mode).
 
-c – Takes the cosine of an angle.
+    c – Takes the cosine of an angle.
 
-t – Takes the tangent of an angle (error at asymptotes).
+    t – Takes the tangent of an angle (error at asymptotes).
 
-! – Calculates the factorial of a non‑negative integer (error for negative or non‑integer).
+    ! – Calculates the factorial of a non‑negative integer (error for negative or non‑integer).
 
-l – Computes the base‑10 logarithm (error for non‑positive input).
+    l – Computes the base‑10 logarithm (error for non‑positive input).
 
-n – Computes the natural logarithm (error for non‑positive input).
+    n – Computes the natural logarithm (error for non‑positive input).
 
-e – Computes the exponential function (eˣ).
+    e – Computes the exponential function (eˣ).
 
-d – Toggles angle mode between degrees and radians.
+    d – Toggles angle mode between degrees and radians.
 
-p – Sets the number of decimal places for output (0–15).
+    p – Sets the number of decimal places for output (0–15).
 
-h – Shows the history of performed operations.
+    h – Shows the history of performed operations.
 
-u – Undoes the last operation, restoring the previous result.
+    u – Undoes the last operation, restoring the previous result.
 
-m – Memory operations:
+    m – Memory operations:
 
-   s – Stores the current result (or a user‑typed value) into memory.
+        s – Stores the current result (or a user‑typed value) into memory.
 
-   r – Recalls the stored memory as the current result.
+        r – Recalls the stored memory as the current result.
 
-   c – Clears the memory (sets to zero).
+        c – Clears the memory (sets to zero).
 
-r (reset) – Clears current result, memory, history, and undo state.
+    r (reset) – Clears current result, memory, history, and undo state.
+
