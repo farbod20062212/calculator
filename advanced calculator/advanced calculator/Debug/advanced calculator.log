@@ -1,0 +1,3 @@
+﻿  advanced calculator.cpp
+C:\Users\Farbod\source\repos\advanced calculator\advanced calculator\advanced calculator.cpp(225,23): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  advanced calculator.vcxproj -> C:\Users\Farbod\source\repos\advanced calculator\Debug\advanced calculator.exe
